@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        input:checked~.c2{
+            transform: translate(300px ,150px);
+            transition-duration: 3s;
+            transition-timing-function: ease-in; 
+            
+        }
+        .c3{
+            position: absolute;
+            margin-left: 400px;
+            margin-top: 0px;
+        }
+        input:checked~.c5{
+            transform: translate(200px);
+            transition-duration: 5s;
+            transition-timing-function: ease-in; 
+            transition-delay: 1s;
+        }    
+        input:checked~.c6{
+            transform: translate(150px);
+            transition-duration: 8s;
+            transition-timing-function: ease-in; 
+            transition-delay: 2s;
+        }
+    </style>
+</head>
+<body>
+    
+        <input type="radio">start
+        <div class="c2 two"><img src="https://i.pinimg.com/474x/20/99/bd/2099bd7d1d214559f15514343c7804f7.jpg" height="100px" width="100px"/></div>
+        <div class="c3"><img src="https://m.media-amazon.com/images/I/81Ibbq8fa2L._AC_UL480_FMwebp_QL65_.jpg" height="150px" width="100px"/></div>
+        <div class="c5"><img src="https://i.pinimg.com/474x/20/99/bd/2099bd7d1d214559f15514343c7804f7.jpg" height="100px" width="100px"/></div>
+        <div class="c6"><img src="https://i.pinimg.com/474x/20/99/bd/2099bd7d1d214559f15514343c7804f7.jpg" height="100px" width="100px"/></div>
+
+
+
+
+
+
+
+    
+</body>
+</html>
